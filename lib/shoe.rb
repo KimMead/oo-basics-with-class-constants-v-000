@@ -1,10 +1,12 @@
+require_pry
+
 class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
   BRANDS = []
 
-
+binding.pry 
   def initialize(brand)
     @brand = brand
     BRANDS << brand
