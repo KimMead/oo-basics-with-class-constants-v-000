@@ -6,8 +6,9 @@ class Shoe
 
   BRANDS = []
 
-binding.pry 
+
   def initialize(brand)
+    binding.pry
     @brand = brand
     BRANDS << brand
   end
